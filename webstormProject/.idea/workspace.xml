@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19a5cdf5-9f28-48b4-aee7-a604eda43155" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/views/storeApp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpecialCakes" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpecialCakes.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../registrationExample.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/adminCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/cartCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/check-outCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/productCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/readmeCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/registrationCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/shippingCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/sign_inCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/special_cakesCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/yummy_cakesCSS.css" afterDir="false" />
+>>>>>>> 09227c65d8af7d9398c0257b6b86866439909bb0
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,12 +31,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="false">
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+>>>>>>> 09227c65d8af7d9398c0257b6b86866439909bb0
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="204">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -43,7 +61,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+<<<<<<< HEAD
         <option value="JavaScript File" />
+=======
+        <option value="CSS File" />
+>>>>>>> 09227c65d8af7d9398c0257b6b86866439909bb0
       </list>
     </option>
   </component>
@@ -65,7 +87,20 @@
         <option value="$PROJECT_DIR$/public/htmls/shipping.html" />
         <option value="$PROJECT_DIR$/public/htmls/check-out.html" />
         <option value="$PROJECT_DIR$/public/htmls/readme.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/views/storeApp.js" />
+=======
+        <option value="$PROJECT_DIR$/public/stylesheets/adminCSS.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/cartCSS.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/check-outCSS.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/productCSS.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/readmeCSS.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/registrationCSS.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/shippingCSS.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/sign_inCSS.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/special_cakesCSS.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/yummy_cakesCSS.css" />
+>>>>>>> 09227c65d8af7d9398c0257b6b86866439909bb0
       </list>
     </option>
   </component>
@@ -75,7 +110,9 @@
     <option name="width" value="1400" />
     <option name="height" value="837" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -102,12 +139,8 @@
             <path>
               <item name="webstormProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="webstormProject" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webstormProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webstormProject" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webstormProject" type="b2602c69:ProjectViewProjectNode" />
@@ -124,6 +157,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -161,12 +195,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="3086000" />
+=======
+    <option name="totallyTimeSpent" value="3106000" />
+>>>>>>> 09227c65d8af7d9398c0257b6b86866439909bb0
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="23" width="1400" height="837" extended-state="0" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
@@ -175,6 +214,12 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24900925" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+>>>>>>> 09227c65d8af7d9398c0257b6b86866439909bb0
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
@@ -182,6 +227,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -280,10 +329,40 @@
     <entry file="file://$PROJECT_DIR$/views/layout.pug">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/adminCSS.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/cartCSS.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/check-outCSS.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/productCSS.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/readmeCSS.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/registrationCSS.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/shippingCSS.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/sign_inCSS.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/special_cakesCSS.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/yummy_cakesCSS.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="204">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
         </state>
       </provider>
     </entry>
