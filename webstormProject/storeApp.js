@@ -4,6 +4,8 @@ const path = require('path');
 
 const app = express();
 
+usersArray = [];
+
 // Set static folder
 app.use(express.static(path.join(__dirname, "public")));
 
