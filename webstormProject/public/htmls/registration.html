@@ -2,12 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styleSheet.css" />
+    <link rel="stylesheet" href="../stylesheets/registration.css" />
     <script src="functionality.js"></script>    <title>registration</title>
 </head>
 <body>
 
 <h1>This is the Registration page</h1>
+<input type="text" id="firstName" placeholder="First Name" required/>
+<input type="text" id="lastName" placeholder="Last Name" required/>
+<br>
+<input type="email" id="email" placeholder="some@email.com" required/>
+<br>
+<input type="date" id="DOB" min="2010-08-14" max="2011-08-14" placeholder="D.O.B. ex: 2010(yr)-08(mth)-14(day)" required/>
+<br>
+<input type="text" id="address" placeholder="address" required />
+<input type="text" id="city" placeholder="city" required />
+<input type="text" id="country" placeholder="country" required />
+<br>
+<input type="tel"  id="phone" placeholder="(555) 555-5555"
+       pattern="^\(?\d{3}\)?[-\s]\d{3}[-\s]\d{4}.*?$" required/>
+<br>
+<input type="text" id="username" placeholder="Username" required />
+<input type="text" id="password" placeholder="password" required />
 
 </body>
 </html>
+

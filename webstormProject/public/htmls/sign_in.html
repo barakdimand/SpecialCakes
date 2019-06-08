@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styleSheet.css" />
-    <script src="functionality.js"></script>
+    <link rel="stylesheet" href="general.css" />
+    <script src="/javascripts/functionality.js"></script>
     <title>Sign In</title>
 </head>
 <body>
-
 <h1>This is the Sign in page</h1>
+<br>
+<h1>Already have an account?</h1>
+<br>
+<input type="text" id="username" placeholder="Username" required />
+<input type="text" id="password" placeholder="password" required />
+<br>
+<br>
+
+<h4>New to Special Cakes?</h4>
+<button id="createAccount" >CREATE NEW ACCOUNT</button>
+
+<script>
+createAccountBtn = document.getElementById("createAccount");
+createAccountBtn.addEventListener("click", toRegister);
+
+</script>
 
 </body>
 </html>
