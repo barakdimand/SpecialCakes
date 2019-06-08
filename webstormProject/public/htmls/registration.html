@@ -9,30 +9,38 @@
 <body>
 
 <h1>This is the Registration page</h1>
-<input type="text" id="firstName" placeholder="First Name" required/>
-<input type="text" id="lastName" placeholder="Last Name" required/>
-<br>
-<input type="email" id="email" placeholder="some@email.com" required/>
-<br>
-DOB:<input type="date" id="DOB" min="2010-08-14" max="2011-08-14" placeholder="D.O.B. ex: 2010(yr)-08(mth)-14(day)" required/>
-<br>
-<input type="text" id="address" placeholder="address" required />
-<input type="text" id="city" placeholder="city" required />
-<input type="text" id="country" placeholder="country" required />
-<br>
-<input type="tel"  id="phone" placeholder="(555) 555-5555"
-       pattern="^\(?\d{3}\)?[-\s]\d{3}[-\s]\d{4}.*?$" required/>
-<br>
-<input type="text" id="username" placeholder="Username" required />
-<input type="text" id="password" placeholder="password" required />
-<br>
-<button type="submit" id="createAccount">CREATE ACCOUNT</button>
+
+<form action="/submitNewUser" method="post">
+
+    <input type="text" id="firstName" placeholder="First Name" required/>
+    <input type="text" id="lastName" placeholder="Last Name" required/>
+    <br>
+    <input type="email" id="email" placeholder="some@email.com" required/>
+    <br>
+    DOB:<input type="date" id="DOB" min="2010-08-14" max="2011-08-14" placeholder="D.O.B. ex: 2010(yr)-08(mth)-14(day)" required/>
+    <br>
+    <input type="text" id="address" placeholder="address" required />
+    <input type="text" id="city" placeholder="city" required />
+    <input type="text" id="country" placeholder="country" required />
+    <br>
+    <input type="tel"  id="phone" placeholder="(555) 555-5555"
+           pattern="^\(?\d{3}\)?[-\s]\d{3}[-\s]\d{4}.*?$" required/>
+    <br>
+    <input type="text" id="username" placeholder="Username" required />
+    <input type="text" id="password" placeholder="password" required />
+    <br>
+    <button type="submit" id="createAccount">CREATE ACCOUNT</button>
 
 <script>
     createAccountBtn = document.getElementById("createAccount");
     createAccountBtn.addEventListener("click", toSignIn);
 
+    user = createUser(firstName, lastName, email, DOB, address, city, country, phone, username, password);
+    usersArray.append(user);
+
 </script>
+
+</form>
 
 </body>
 </html>

@@ -20,6 +20,9 @@ app.get('/registration', (req, res) => {
     res.sendFile(path.join(__dirname + '/public/htmls/registration.html'));
 });
 
+app.post('/submitNewUser', (req, res) => {
+    res.sendFile(path.join(__dirname + '/public/htmls/sign_in.html'));
+});
 
 const PORT = process.env.PORT || 5000;
 
