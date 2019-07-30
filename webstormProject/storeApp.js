@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 
 // REGISTRATION PAGE
 app.get('/registration', (req, res) => {
-    res.sendFile(path.join(__dirname + '/public/htmls/registration.html'));
+    res.sendFile(path.join(__dirname + '/public/htmls/sign_up_clone.html'));
 });
 
 
