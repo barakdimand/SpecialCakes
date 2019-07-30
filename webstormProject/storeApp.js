@@ -20,7 +20,11 @@ app.get('/registration', (req, res) => {
     res.sendFile(path.join(__dirname + '/public/htmls/registration.html'));
 });
 
-app.post('/submitNewUser', (req, res) => {
+
+app.post('/submitNewUser/:username/:password', (req, res) => {
+    username = req.params.username;
+    password = req.params.password;
+    usersArray.append(createUser(username, password));
     res.sendFile(path.join(__dirname + '/public/htmls/sign_in.html'));
 });
 
