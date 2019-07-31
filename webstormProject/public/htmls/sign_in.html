@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styleSheet.css" />
     <link rel="stylesheet" href="general.css" />
-
     <link rel="stylesheet" href="../stylesheets/sign_up_clone.css">
-
     <script src="/javascripts/functionality.js"></script>
     <title>Sign In</title>
 </head>
@@ -31,7 +29,8 @@
 
 <div id="id01" class="modal">
     <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-    <form class="modal-content" action="/action_page.php">
+    <!-- This form should send the parameters to a post method to create a new user with the given attributes -->
+    <form class="modal-content" action="/submitNewUser" method="post"> <!-- action="/action_page.php"> -->
         <div class="container">
             <h1>Sign Up</h1>
             <p>Please fill in this form to create an account.</p>
@@ -79,8 +78,10 @@ window.onclick = function(event) {
 testusername = document.getElementById("username");
 testpassword = document.getElementById("password");
 
-signInBtn = document.getElementById("signInSubmitBtn");
-signInBtn.addEventListener("click", signIn(testusername));
+// check when submit button is clicked if the user exists,
+// if does not exist then should recomend registering
+// signInBtn = document.getElementById("signInSubmitBtn");
+// signInBtn.addEventListener("click", signIn(testusername));
 
 
 </script>

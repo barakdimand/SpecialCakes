@@ -16,14 +16,18 @@ app.get('/', (req, res) => {
 });
 
 // REGISTRATION PAGE
-app.get('/registration', (req, res) => {
-    res.sendFile(path.join(__dirname + '/public/htmls/sign_up_clone.html'));
-});
+// app.get('/registration', (req, res) => {
+//     res.sendFile(path.join(__dirname + '/public/htmls/sign_up_clone.html'));
+// });
 
 
-app.post('/submitNewUser/:username/:password', (req, res) => {
-    username = req.params.username;
-    password = req.params.password;
+app.post('/submitNewUser/:email/:psw/:psw-repeat', (req, res) => {
+    username = req.params.email;
+    password = req.params.psw;
+    passwordreapeat = req.params.psw-repeat
+    if (password != passwordreapeat) {
+        alert("passwords do not match")
+    }
     usersArray.append(createUser(username, password));
     res.sendFile(path.join(__dirname + '/public/htmls/sign_in.html'));
 });
