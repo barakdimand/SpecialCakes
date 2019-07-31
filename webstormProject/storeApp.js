@@ -1,8 +1,12 @@
 const express = require('express');
 const path = require('path');
+// tried installing body-parser but might not have worked
+// const bodyParser = require('body-parser');
+
 // const router = express.Router();
 
 const app = express();
+// app.use(bodyParser());
 
 usersArray = [];
 
@@ -30,6 +34,9 @@ app.post('/submitNewUser/:email/:psw/:psw-repeat', (req, res) => {
     }
     usersArray.append(createUser(username, password));
     res.sendFile(path.join(__dirname + '/public/htmls/sign_in.html'));
+
+    // res.end(JSON.stringify(req.body));
+
 });
 
 const PORT = process.env.PORT || 5000;
